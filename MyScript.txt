@@ -1,0 +1,49 @@
+1. Lay on Bed
+2. Lay on Bed
+3. Move to room 3
+4. Brush teeth
+5. Wash Face
+6. Sit on Toilet
+7. Move to room 1
+8. Pet Cat
+9. Slam Head on wall
+10. Lay on Bed
+11. Scream
+12. Move to room 2
+13. Hit head on washer
+14. Move to room 6
+15. Look in mirror
+16. Punch Mirror
+17. Move to room 2
+18. Open Cabinets
+19. Move to room 4
+20. Lay Down
+21. Talk
+22. Look in Mirror
+23. Lay Down
+24. Jump on Bed
+25. Lay Down
+26. Jump on Bed
+27. Move to room 2
+28. Move to room 7
+29. Move to room 8
+30. YOU ARE VOID
+31. Read a Book
+32. YOU ARE VOID
+33. Pet Dog
+34. Read a Book
+35. Read a Book
+36. Sit on Couch
+37. YOU ARE VOID
+38. Sit on Couch
+39. Sit on Couch
+40. Pet Dog
+41. Move to room 9
+42. USE THE KNIFE
+43. Move to room 7
+44. Slam head into wall
+45. Move to room 8
+46. Read a Book
+47. Sit on Couch
+48. Move to room 2
+49. Move to room 7

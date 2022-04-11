@@ -1,4 +1,5 @@
 import random
+
 def CreateScript():
     area1Actions = ["2", "3", "Lay on Bed", "Slam Head on wall", "Put on Jacket", "Scream", "Pet Dog", "Pet Cat", "Fall", "Jump", "Dialogue"]
     area2Actions = ["4", "5", "6", "7", "Hit head on washer", "Do some laundry", "Dialogue", "Open Cabinets"]
@@ -10,8 +11,9 @@ def CreateScript():
     area8Actions = ["9", "2", "Sit on Couch", "Pet Dog", "Watch TV", "YOU ARE VOID", "Read a Book"]
     area9Actions = ["7", "8", "USE THE KNIFE", "TOUCH THE STOVE", "Eat some chips", "Look Outside", "DO IT", "Drink some Water", "Wash your hands"]
     i = 1
+    file1 = open("MyScript.txt", "w") 
     currentArea = 1
-    while i < 30:
+    while i < 50:
       if currentArea == 1:
         action = random.choice(area1Actions)
       elif currentArea == 2:
@@ -30,9 +32,12 @@ def CreateScript():
         action = random.choice(area8Actions)
       else:
         action = random.choice(area9Actions)
-      if action.isalnum
+      if action.isnumeric():
+        currentArea = int(action)
+        file1.write(str(i) + ". Move to room " + action + "\n")
+      else:
+        file1.write(str(i) + ". " + action + "\n")
+      i = i + 1
 
-class Area:
-  def __init__(self, action, chance):
-    self.action = action
-    self.chance = chance
+CreateScript()
+
